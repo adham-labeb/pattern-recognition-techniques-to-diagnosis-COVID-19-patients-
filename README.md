@@ -93,7 +93,8 @@ This project aims to classify CT images of lungs as either normal or COVID-19 po
 
 To run this code:
 
-1. Place your images in folders labeled as "normal" (e.g., `C:\images`) and "COVID-19" (e.g., `C:\images-covid`).
-2. Install the required libraries:
+1. Place your images in folders labeled as "Normal" (e.g., `Normal/*.png`) and "COVID" (e.g., `COVID/*.png`).
+2. the data folder is in the same dir as the old code or the new code are depends on what you want to use
+3. Install the required libraries:
    ```bash
    pip install numpy opencv-python-headless scikit-learn
