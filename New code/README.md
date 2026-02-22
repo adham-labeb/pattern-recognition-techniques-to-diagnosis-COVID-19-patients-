@@ -2,6 +2,8 @@
 
 This document explains the steps performed in `classification.py` and details the machine learning models, normalization scaling techniques, and data splitting methods utilized.
 
+Note: this code runs on a small subset of the data, so the results are different from the results in the main README file. I do this so I can test if the code works or not. If the entire dataset is used, the result will be the same as in the main README file
+
 ---
 
 ## 1. Data Input and Preprocessing
