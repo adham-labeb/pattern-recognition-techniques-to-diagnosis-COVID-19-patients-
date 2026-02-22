@@ -64,11 +64,11 @@ MinMaxScaler(feature_range=(0, 1))
 * **How it works:** Despite its name, this is a linear classification algorithm. It calculates a weighted sum of the input features and passes it through a Sigmoid (logistic) function to map the prediction to a probability between 0 and 1.
 * **Characteristics:** Very fast to train and test. Serves as an excellent baseline model.
 
-### B. Random Forest Classifier (`RFC`)
+### B. Random Forest Classifier (`RF`)
 * **How it works:** An ensemble learning method. It creates a "forest" of many Decision Trees during training. Each tree is built using a random subset of the data and a random subset of the features. The final prediction is made by taking a majority vote of all the individual trees.
 * **Characteristics:** Highly accurate and resistant to overfitting compared to single decision trees. Does not strictly require normalized data, but we normalize here to keep the pipeline consistent.
 
-### C. Gaussian Naive Bayes (`GNB`)
+### C. Gaussian Naive Bayes (`NB`)
 * **How it works:** A probabilistic classifier based on applying Bayes' theorem with the "naive" assumption of conditional independence between every pair of features (i.e., it assumes pixel 1 is completely independent of pixel 2). "Gaussian" means it assumes the continuous pixel values follow a normal (Gaussian) distribution.
 * **Characteristics:** Extremely fast training time and handles high-dimensional data well.
 
